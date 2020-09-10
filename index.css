@@ -664,7 +664,6 @@ h3 {
     {
       border: none;
       margin-bottom: 40px;
-      padding: 20px;
     }
 
     .problemStatement {
@@ -779,6 +778,20 @@ h3 {
             margin-left: 40% !important;
         }
 
+
+    .column8 {
+        padding: 20px !important;
+    }
+
+    .column4 {
+        padding: 20px !important;
+    }
+
+    .column10 {
+        padding: 20px !important;
+    }
+
+
     }
 
     @media only screen and (max-width: 500px){
@@ -797,11 +810,20 @@ h3 {
         }
 
         .column9 {
-            height: 300px;
+            height: 300px !;
         }
 
         .nextText {
             margin-left: 30% !important;
+        }
+
+        .testingGif {
+            height: 300px !important;
+            padding-bottom: 20px;
+        }
+
+        .jumbo3 {
+            height: auto;
         }
 
     }
