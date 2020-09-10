@@ -48,7 +48,7 @@ body {
 
 .jumbo1 {
     max-height: 100vh;
-    background-image: url("../CaseStudy/images/LWV.png");
+    background-image: url("images/LWV.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -116,7 +116,7 @@ h2 {
 }
 
 .column3 {
-    background-image: url(../CaseStudy/images/woman-with-phone.png);
+    background-image: url(images/woman-with-phone.png);
     background-position: center;
     background-size: cover;
     height: 400px;
