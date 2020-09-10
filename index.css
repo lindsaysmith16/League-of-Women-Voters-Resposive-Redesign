@@ -1,0 +1,857 @@
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrap {
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.navbar {
+    background: rgba(73, 133, 147, 0.64) !important;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10%;
+    position: fixed;
+    width: 100vw;
+    z-index: 9999;
+}
+
+.logo {
+    height: 50px;
+}
+
+.navbar-nav {
+    padding-left: 45%;
+}
+
+.nav-item {
+    margin-left: 15px;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #1F596B !important;
+}
+
+.nav-link:active {
+    color: #272727 !important;
+}
+
+.jumbo1 {
+    max-height: 100vh;
+    background-image: url("../CaseStudy/images/LWV.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.hero {
+    margin-top: 10px;
+    background: rgba(157, 187, 202, 0.85);
+    width: 65%;
+    align-items: center;
+    padding: 10px;
+}
+
+.jumbotron h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 32px;
+    color:#605E5E;
+}
+
+.intro h2{
+    text-align: center;
+}
+
+.fas {
+    color: #1F596B;
+    margin-top: 32%;
+}
+
+.column1 {
+    border-right: 1px solid black;
+    padding-right: 40px;
+    padding-left: 0;
+}
+
+.column2 {
+    padding-left: 40px;
+    padding-right: 0;
+}
+
+.overview {
+    margin-bottom: 60px;
+    padding: 0;
+}
+
+.challenge {
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: #C3D9DE;
+}
+
+.jumbo2 {
+    padding: 0;
+    background-color: none;
+    margin-bottom: 130px;
+    overflow: hidden;
+}
+
+.column3 {
+    background-image: url(../CaseStudy/images/woman-with-phone.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin-top: 0 !important;
+    padding: 0;
+}
+
+.column4 {
+    align-self: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+.container2 {
+    position: relative;
+    height:150px;
+    margin: 0 auto;
+    padding-left: 13%;
+    padding-right: 13%;
+    margin-bottom:100px;
+    overflow: hidden;
+    }
+.progressLine {
+    margin-top: 30px;
+}
+
+.progressDots {
+      position: absolute;
+      top: 0px;
+  }
+
+
+.activeDot {
+    height: 60px;
+    width: 60px;
+    background-color: #1F596B;
+    border-radius: 50%;
+  }
+
+  .dot {
+    height: 60px;
+    width: 60px;
+    border: 6px solid #1F596B;
+    border-radius: 50%;
+  }
+
+.progressText {
+    position:absolute;
+    top: 70px;
+    left: 8%;
+}
+
+.dotText {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.dotText a{
+    color: #272727;
+}
+
+.shortText {
+    display: none;
+}
+
+.researchMethods {
+    margin-bottom: 60px;
+}
+
+.researchMethods p{
+    margin-bottom: 40px;
+}
+
+.researchMethods h2 {
+    text-align: center;
+}
+
+.circleIcon {
+    background-color: rgba(73, 133, 147, 0.64);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    /* padding: 20px; */
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.iconPng {
+    height: 143px;
+    width: 143px;
+}
+
+.researchIcons {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.researchIconText {
+    margin: 0 auto;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.moreColumns {
+    text-align: center;
+    margin-bottom: 60px;
+    padding-left: 16%;
+    padding-right: 16%;
+}
+
+.column4 {
+    overflow: hidden;
+}
+
+.column5 {
+    padding-right: 20px;
+}
+    
+.row {
+
+    overflow: hidden;
+    margin: 0;
+
+} 
+.column6 {
+    padding-left: 20px;
+}
+
+h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 26px;
+    color:#605E5E;
+}
+
+.researchImage {
+    width:100%;
+    margin-bottom: 10px;
+    filter: drop-shadow(3px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.moreColumns p {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.affinityTextSmall {
+    display: none;
+}
+
+.problemStatement {
+    padding-top: 5%;
+    margin-bottom: 60px;
+}
+
+.problemStatement h3 {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.problemStatement h2 {
+    text-align: center;
+}
+
+.column7 {
+    padding: 0;
+}
+
+.column8 {
+    align-self: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    overflow: hidden;
+}
+
+.uxScenarioStory {
+    margin-bottom: 60px;
+    overflow: hidden;
+}
+.uxScenarioStory h2 {
+    text-align: center;
+}
+
+.pictures {
+    margin-bottom: 130px !important;
+}
+
+.info {
+    padding-right: 40px;
+    margin-bottom: 60px;
+    align-self: center;
+}
+
+.furtherTesting {
+    align-self: center;
+}
+
+.column9 {
+    background-image: url(images/Paper\ Prototype.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 400px;
+    margin-top: 0 !important;
+    padding: 0;
+}
+
+.column10 {
+    align-self: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.column10 h2 {
+    text-align: center;
+}
+
+.firstTesting {
+    margin-bottom: 60px;
+}
+
+.iterations {
+    margin-bottom: 60px;
+}
+
+.abTesting {
+    margin-bottom: 20px;
+}
+
+.abTesting h2 {
+    text-align: center;
+}
+
+.testGIFS {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.jumbo3 {
+    height: 700px;
+    background-color: #C3D9DE;
+    margin-bottom: 80px;
+}
+
+.secondTesting {
+    margin-bottom: 60px;
+}
+
+.prototypeGif {
+    margin-bottom: 60px;
+}
+
+.protoGif {
+    margin-bottom: 60px;
+    margin-left: 5%;
+}
+
+.prototypeGif h2{
+    text-align: center;
+}
+
+.column12 {
+    background-image: url(images/iterating.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 0 !important;
+    padding: 0 !important;
+}
+
+.forward {
+    background-color: #C3D9DE;
+    padding: 0;
+}
+
+.forward h2 {
+    text-align: center;
+}
+
+.finalThoughts {
+    margin-bottom: 60px;
+}
+
+.finalThoughts h2 {
+    text-align: center;
+}
+
+.nextText {
+    margin-left: 65% !important;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.footer {
+    height:60px;
+    margin-bottom: 0;
+    background: rgba(73, 133, 147, 0.64) !important;
+    border-radius: 0;
+    padding-bottom: 15px !important;
+    padding-left: 40px;
+    margin-top: 0;
+}
+.card-body {
+    display: grid;
+    grid-template-columns: 12fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "footerText email linkedin";
+    align-items: center;
+}
+
+.footerText {
+    grid-area: footerText; 
+    margin-right: 50%;
+    align-self: end;
+}
+
+.email {
+    width:60px; 
+    grid-area: email;
+}
+
+.linkedin {
+    width:60px; 
+    grid-area: linkedin;
+}
+
+.footerTextSmall {
+    display: none;
+}
+
+
+
+@media only screen and (max-width:990px) {
+
+    .container {
+        padding: 20px !important;
+    }
+
+    .column4 p {
+        padding-right: 20px;
+        padding-left:20px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 720px;
+    }
+    .column4 h2 {
+        text-align: center;
+    }
+    .column8 p{
+        padding-right: 20px;
+        padding-left:20px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 720px;
+    }
+
+    .column8 h2 {
+        text-align: center;
+    }
+
+    .column8 {
+        padding-left: 80px !important;
+        padding-right: 80px !important;
+    }
+
+    .jumbo2row {
+        margin: 0;
+    }
+
+    .affinityTextSmall {
+        display:flex;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: lighter;
+    }
+
+    .affinityText {
+        display: none;
+    }
+
+    .insightsText {
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+
+
+    .caseNav {
+        padding: 0;
+    }
+
+
+    .progressDots {
+        padding: 0;
+        margin: 0 auto;
+        left: 5%;
+        width: 95%;
+        top:-10px;
+    }
+
+    .progressText {
+        padding-left:0;
+        padding-right: 5%;
+        margin: 0 auto;
+        left: 0;
+
+    }
+
+    .caseRow {
+        margin: 10px;
+    }
+
+    hr {
+        width: 80% !important;
+    }
+
+    .dotText a {
+        font-size: 14px;
+    }
+
+    .prototypeGif {
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .protoGif {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .circleIcon {
+        width: 175px;
+        height: 175px;
+    }
+
+    .iconPng {
+        height: 123px;
+        width: 123px;
+    }
+
+    .info {
+        padding: 0;
+    }
+
+    .challenge {
+        padding: 0;
+    }
+
+    .userPersona {
+        width: 100vw;
+        height: auto !important;
+        padding-left: 0px;
+        margin: 0px;
+    }
+    .column7 {
+        padding-left: 0 !important;
+    }
+
+
+    .column9 {
+        height: 570px;
+    }
+    
+
+    .footerText {
+        margin-right: 30%;
+    }
+
+    .column10 p{
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 720px;
+    }
+
+    .column10 h2 {
+        text-align: center;
+    }
+
+    .firstTesting {
+        margin-bottom: 130px;
+    }
+
+    .iterationImages {
+        margin-bottom: 40px;
+    }
+
+    .iterations {
+        overflow: hidden;
+    }
+
+    .uxScenarioStory {
+        overflow: hidden;
+    }
+
+}
+
+@media only screen and (max-width:767px) {
+    .progressText {
+        padding-right: 5% !important;
+    }
+
+    .jumbo1 {
+        height: 350px;
+    }
+
+    .hero {
+        width: 90%;
+        margin-top: 40px;
+    }
+
+    .jumbotron h1 {
+        font-size:22px;
+    }
+
+    .fas {
+        margin-top: 12%;
+    }
+
+    .container-fluid {
+        padding: 0;
+    }
+
+    .researchMethods {
+        padding: 20px;
+    }
+
+    .col-sm-12
+    {
+      border: none;
+      margin-bottom: 40px;
+      padding: 20px;
+    }
+
+    .problemStatement {
+        padding: 20px;
+    }
+    
+    .protoGif {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .column1 {
+        padding: 0px;
+        border-right: none;
+    }
+
+    .column2 {
+        padding: 0px;
+    }
+
+    .intro {
+        padding: 20px;
+    }
+
+    #overviewText {
+        padding: 20px;
+    }
+
+    .column7 {
+        padding: 0;
+    }
+
+    .moreColumns {
+        width: 85vw;
+        margin: 0 auto;
+    }
+
+    .dot {
+        display: flex;
+        height: 40px;
+        width: 40px;
+    }
+
+    .progressDots {
+        top:0;
+    }
+
+    .circleIcon {
+        width: 150px;
+        height: 150px;
+    }
+
+    .iconPng {
+        height: 103px;
+        width: 103px;
+    }
+
+    .column9 {
+        height: 470px;
+    }
+
+    .nextText {
+        margin-left: 50% !important;
+    }
+
+    }
+
+    @media only screen and (max-width: 600px) {
+        hr {
+            width: 80% !important;
+        }
+        
+
+        .col {
+            padding-left: 10px;
+            padding-right: 0px;
+        }
+        
+        .less {
+            padding-left: 0;
+            padding-right: 10px;
+        }
+
+        .progressText {
+            padding-right: 0 !important;
+        }
+
+        .circleIcon {
+            width: 125px;
+            height: 125px;
+        }
+    
+        .iconPng {
+            height: 83px;
+            width: 83px;
+        }
+
+        .column9 {
+            height: 350px;
+        }
+
+        .footerTextFull {
+            display:none;
+        }
+
+        .footerTextSmall {
+            display: grid;
+        }
+
+        .nextText {
+            margin-left: 40% !important;
+        }
+
+    }
+
+    @media only screen and (max-width: 500px){
+        .fas {
+            margin-top: 24%;
+        }
+
+        .circleIcon {
+            width: 108px;
+            height: 108px;
+        }
+
+        .iconPng {
+            height: 65px;
+            width: 65px;
+        }
+
+        .column9 {
+            height: 300px;
+        }
+
+        .nextText {
+            margin-left: 30% !important;
+        }
+
+    }
+
+    @media only screen and (max-width: 420px) {
+
+        .dotText a{
+            font-size: 12px;
+        }
+
+        .circleIcon {
+            width: 88px;
+            height: 88px;
+        }
+
+        .iconPng {
+            height: 45px;
+            width: 45px;
+        }
+
+        .interviewsText {
+            padding: 0;
+        }
+
+        .column9 {
+            height: 270px;
+        }
+
+    }
+
+    @media only screen and (max-width: 400px){
+        .container2 {
+            height: 100px;
+        }
+
+
+        .fullText {
+            display: none;
+        }
+
+        .shortText {
+            display: flex;
+        }
+
+        .dotText {
+            flex-grow: none;
+        }
+
+        .nextText {
+            margin-left: 25% !important;
+        }
+
+    }
